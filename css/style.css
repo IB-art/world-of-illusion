@@ -1,0 +1,208 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  display: inline-block;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+button {
+  outline: none;
+  border-style: none;
+  text-align: center;
+  cursor: pointer;
+  padding: 0;
+  background: transparent;
+}
+
+.container {
+  max-width: 1220px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #000;
+}
+
+.header img {
+  width: 100%;
+  /* height: 51px;
+  background-image: url(../images/Screenshot\ 2022-06-27\ at\ 12-07-30\ Doors\ to\ my\ Fantasy\ Binance\ NFT.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; */
+}
+
+.baner {
+  background-image: url(../images/logo-baner/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 220px;
+}
+
+.baner__prev {
+  display: flex;
+  background-color: #fff;
+  border-radius: 32px 32px 0px 0px;
+  flex-direction: column;
+  width: 100%;
+  height: 290px;
+  margin-top: -30px;
+  margin-bottom: 30px;
+}
+
+.baner__prev-img {
+  width: 132px;
+  height: 132px;
+  padding: 8px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -70px;
+}
+
+.baner__prev-img img {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.baner__prev-title {
+  font-weight: 600;
+  font-size: 24px;
+  margin: 0 auto;
+  letter-spacing: 3px;
+  margin-bottom: 30px;
+}
+
+.baner__prev-text {
+  max-width: 588px;
+  text-align: center;
+  color: #707a8a;
+  margin: 0 auto;
+  line-height: 20px;
+}
+
+.baner__info {
+  box-shadow: rgb(245 245 245) 0px 8px 10px -6px;
+}
+
+.baner__info img {
+  width: 100%;
+}
+
+.wrapper {
+  margin-top: 100px;
+}
+
+.gallery__items {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-around; */
+  justify-content: space-between;
+}
+
+.box {
+  margin: 7px;
+  border-radius: 8px;
+  transition: all 0.3s ease 0s;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.box:hover {
+  transform: translateY(-4px);
+  box-shadow: rgb(24 26 32 / 10%) 0px 0px 1px, rgb(71 77 87 / 8%) 0px 7px 14px,
+    rgb(24 26 32 / 8%) 0px 3px 6px;
+}
+
+.gallery__item {
+  width: 286px;
+  height: 286px;
+  border-radius: 8px 8px 0px 0px;
+  border: 1px solid rgb(234, 236, 239);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.gallery__item img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.gallery__info {
+  font-size: 16px;
+  text-transform: capitalize;
+  border: 1px solid rgb(234, 236, 239);
+  border-radius: 0px 0px 8px 8px;
+  border-top: none;
+  padding: 12px;
+}
+
+.gallery__title {
+  color: rgb(30, 35, 41);
+  padding-bottom: 12px;
+}
+
+.gallery__text {
+  font-size: 12px;
+  font-weight: 500;
+  color: rgb(201, 148, 0);
+  padding-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.gallery__text span {
+  color: rgb(112, 122, 138);
+  background-color: rgb(245, 245, 245);
+  border-radius: 4px;
+  padding: 2px 4px;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.gallery__precio {
+  color: rgb(112, 122, 138);
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.gallery__precio span {
+  font-size: 16px;
+  color: #000;
+}
+
+.gallery__precio-span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgb(112, 122, 138);
+  text-align: right;
+}

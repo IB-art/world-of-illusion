@@ -1,0 +1,84 @@
+@media (max-width: 621px) {
+  .baner {
+    height: 124px;
+  }
+
+  .baner__prev-img {
+    width: 80px;
+    height: 80px;
+    top: -20px;
+    padding: 5px;
+  }
+
+  .baner__prev-title {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+
+  .baner__prev-text {
+    max-width: 420px;
+    line-height: 14px;
+    font-size: 70%;
+  }
+
+  .baner__prev {
+    height: 214px;
+  }
+
+  .wrapper {
+    margin-top: 30px;
+  }
+
+  .gallery__item {
+    width: 200px;
+    height: 200px;
+  }
+
+  .gallery__items {
+    justify-content: space-around;
+  }
+
+  .gallery__precio span {
+    font-size: 12px;
+  }
+
+  .gallery__precio-span {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 345px) {
+  .baner__prev {
+    margin-bottom: 40px;
+  }
+
+  .baner {
+    height: 85px;
+  }
+
+  .baner__prev-img {
+    width: 50px;
+    height: 50px;
+    top: -8px;
+    padding: 3px;
+  }
+
+  .baner__prev-title {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+
+  .baner__prev-text {
+    max-width: 220px;
+    line-height: 8px;
+    font-size: 52%;
+  }
+
+  .baner__prev {
+    height: 122px;
+  }
+
+  .wrapper {
+    margin-top: 10px;
+  }
+}
